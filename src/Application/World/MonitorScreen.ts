@@ -184,7 +184,7 @@ export default class MonitorScreen extends EventEmitter {
 
         // Set iframe attributes
         // PROD
-        iframe.src = 'http://localhost:3000/';
+        iframe.src = 'https://portfolio-inner-site-ecru.vercel.app/events';
         /**
          * Use dev server is query params are present
          *
