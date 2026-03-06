@@ -149,16 +149,16 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         <div style={styles.logoContainer}>
                             <div>
                                 <p style={styles.green}>
-                                    <b>Heffernan,</b>{' '}
+                                    <b>Coding For Change,</b>{' '}
                                 </p>
                                 <p style={styles.green}>
-                                    <b>Henry Inc.</b>
+                                    <b>\&gt;&#9825;</b>
                                 </p>
                             </div>
                         </div>
                         <div style={styles.headerInfo}>
                             <p>Released: 01/13/2000</p>
-                            <p>HHBIOS (C)2000 Heffernan Henry Inc.,</p>
+                            <p>HHBIOS (C)2000 Coding For Change e.V.,</p>
                         </div>
                     </div>
                     <div style={styles.body} className="loading-screen-body">
@@ -195,7 +195,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                             <p>
                                 All Content Loaded, launching{' '}
                                 <b style={styles.green}>
-                                    'Henry Heffernan Portfolio Showcase'
+                                    'Explore Coding for Change'
                                 </b>{' '}
                                 V1.0
                             </p>
@@ -208,8 +208,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         className="loading-screen-footer"
                     >
                         <p>
-                            Press <b>DEL</b> to enter SETUP , <b>ESC</b> to skip
-                            memory test
+                            Credits to Henry Heffernan
                         </p>
                         <p>{getCurrentDate()}</p>
                     </div>
@@ -221,13 +220,8 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                 })}
             >
                 <div style={styles.startPopup}>
-                    {/* <p style={styles.red}>
-                        <b>THIS SITE IS CURRENTLY A W.I.P.</b>
-                    </p>
-                    <p>But do enjoy what I have done so far :)</p>
-                    <div style={styles.spacer} />
-                    <div style={styles.spacer} /> */}
-                    <p>Henry Heffernan Portfolio Showcase 2022</p>
+                    {}
+                    <p>Explore Coding For Change. The best social computer science club in Munich.</p>
                     {mobileWarning && (
                         <>
                             <br />
@@ -242,6 +236,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                             <br />
                         </>
                     )}
+                    <br></br>
                     <div style={{ display: 'flex', alignItems: 'flex-end' }}>
                         <p>Click start to begin{'\xa0'}</p>
                         <span className="blinking-cursor" />
